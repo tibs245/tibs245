@@ -26,7 +26,8 @@ increasingly focused on **building software with AI agents the right way**.
 ### Spec-Driven Development with AI agents
 
 For the last **6+ months I've been using Claude daily inside production projects**
-(including at **OVH**), not as a gimmick but as a real part of the engineering
+(including [contributions to **OVH**'s `ovh/manager`](https://github.com/ovh/manager/commits?author=tibs245)),
+not as a gimmick but as a real part of the engineering
 workflow. My focus is making AI a multiplier for *team* quality, not just
 individual speed — what I think of as **Spec-Driven Development**: the spec is the
 source of truth, the agent does the heavy lifting, and the team stays in control.
@@ -37,8 +38,8 @@ Concretely, this is what I've been doing:
   carry a migration through from analysis to working, reviewed code.
 - 🧭 **Front-end best-practice frameworks** — organizational projects that encode
   good practices so a team (and its agents) ship consistently.
-- 🧩 **[BMAD](https://github.com/bmad-code-org/BMAD-METHOD) + custom modules** —
-  designing project-specific agent modules tailored to each codebase and team.
+- 🧩 **BMAD + custom modules** — designing project-specific agent modules
+  tailored to each codebase and team.
 - 📐 **Spec-first, quality-first** — turning specs into the contract that drives
   both humans and agents toward maintainable software.
 
@@ -51,7 +52,7 @@ specializing.
 
 - **Languages** — Rust, TypeScript / JavaScript, Kotlin, Python
 - **Frontend** — React, TypeScript, Tauri
-- **Backend / Systems** — Rust (Axum, NAPI bindings), API architecture, CLIs
+- **Backend / Systems** — Rust (Axum, NAPI bindings), Kotlin, API architecture, CLIs
 - **Mobile** — Kotlin Multiplatform (KMM)
 - **Tooling** — Typst, monorepos, native bindings
 
