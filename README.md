@@ -17,8 +17,35 @@ React front-ends and cross-platform mobile apps. I care about clean
 architecture, strong typing, and tools that are pleasant to use and easy to
 maintain.
 
-Currently most invested in the **Rust** ecosystem, with a recurring interest in
-**algorithmic trading**, **developer tooling**, and **cross-platform apps**.
+Most invested in the **Rust** ecosystem, with a recurring interest in
+**algorithmic trading**, **developer tooling**, and **cross-platform apps** — and
+increasingly focused on **building software with AI agents the right way**.
+
+---
+
+### Spec-Driven Development with AI agents
+
+For the last **6+ months I've been using Claude daily inside production projects**
+(including at **OVH**), not as a gimmick but as a real part of the engineering
+workflow. My focus is making AI a multiplier for *team* quality, not just
+individual speed — what I think of as **Spec-Driven Development**: the spec is the
+source of truth, the agent does the heavy lifting, and the team stays in control.
+
+Concretely, this is what I've been doing:
+
+- 🔄 **Automated, end-to-end migration workflows** — agent-driven pipelines that
+  carry a migration through from analysis to working, reviewed code.
+- 🧭 **Front-end best-practice frameworks** — organizational projects that encode
+  good practices so a team (and its agents) ship consistently.
+- 🧩 **[BMAD](https://github.com/bmad-code-org/BMAD-METHOD) + custom modules** —
+  designing project-specific agent modules tailored to each codebase and team.
+- 📐 **Spec-first, quality-first** — turning specs into the contract that drives
+  both humans and agents toward maintainable software.
+
+I believe this is becoming an essential skill, and it's where I'm deliberately
+specializing.
+
+---
 
 ### What I work with
 
@@ -39,7 +66,7 @@ Currently most invested in the **Rust** ecosystem, with a recurring interest in
 | **[passtauri](https://github.com/tibs245/passtauri)** | A desktop GUI for the `pass` password manager, built with Tauri + TypeScript. |
 | **[invoice-cli](https://github.com/tibs245/invoice-cli)** | A Rust CLI to generate and manage invoices — a small, complete, useful tool. |
 | **[server-state-manager-adapter](https://github.com/tibs245/server-state-manager-adapter)** | A TypeScript module for front-end server-state management. |
-| **[my-fidelity-2025](https://github.com/tibs245/my-fidelity-2025)** | A Kotlin Multiplatform loyalty app for local merchants. |
+| **my-fidelity-2025** 🔒 | A Kotlin Multiplatform loyalty app for local merchants. *(private side project)* |
 | **[translation-analyzer-napi](https://github.com/tibs245/translation-analyzer-napi)** | Rust core exposed to Node via NAPI — a monorepo translation tooling POC. |
 | **[template-typst-CV](https://github.com/tibs245/template-typst-CV)** | My résumé as a reusable Typst template — fork it for your own. |
 
