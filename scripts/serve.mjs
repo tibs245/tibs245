@@ -12,6 +12,7 @@ export function serve(port = 4174) {
     ".svg": "image/svg+xml",
     ".woff2": "font/woff2",
     ".jpg": "image/jpeg",
+    ".webp": "image/webp",
     ".xml": "application/xml",
     ".txt": "text/plain; charset=utf-8",
   };

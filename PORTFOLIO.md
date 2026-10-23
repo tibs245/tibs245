@@ -58,3 +58,7 @@ The repository's Pages publishing source must be **GitHub Actions** (`build_type
 If moving to a custom domain, update canonical, Open Graph, structured-data, robots/sitemap URLs and the URL checks in `scripts/check-site.mjs` together. For a project site, `docs/robots.txt` is served under `/tibs245/`; robots exclusion rules are only authoritative at the origin root. The page is indexable without custom robots rules.
 
 Font licensing is preserved in `docs/assets/FONT-LICENSES.txt`. MyGameMaster's mark and palette come from the user's own project. Its map illustration is original portfolio artwork, not a screenshot of the application.
+
+## Personal portrait
+
+`docs/assets/thibault-barske-cutout.webp` is a transparent cutout prepared with the built-in ImageGen tool from the author’s supplied photo, optimized to 576 × 864 pixels (approximately 55 kB). The portfolio uses CSS for horizontal mirroring, subtle tint and a fade restricted to the body; the face stays clear above the copy with the same reserved space at each breakpoint. No rectangular backdrop or external image service is used. The header contact link uses the primary blue CTA treatment with visible keyboard focus.
