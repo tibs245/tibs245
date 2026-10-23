@@ -27,18 +27,8 @@ increasingly focused on **building software with AI agents the right way**.
 
 Software isn't just my job. It's also what I do when nobody is paying me.
 
-Most of the repos below started with something I wanted to exist: a proper
-Rust client for my trading platform, a desktop app for my password manager, a
-CLI so I'd never format an invoice by hand again, a Game Master for my
-tabletop campaigns, and a workflow that makes AI agents behave like a good
-team. Each one is a reason to learn something new, whether that's a financial
-API, native bindings, Kotlin Multiplatform or multi-agent systems. When a
-tool turns out well, I clean it up and share it, so others can fork it rather
-than start from scratch.
-
-What keeps me hooked hasn't changed: the craft of turning a fuzzy idea into
-something solid, well-typed and pleasant to use, and then making it a little
-better each time.
+If you like my projects, a star ⭐️ is always appreciated. Every one of them
+is built with love ❤️
 
 ---
 
