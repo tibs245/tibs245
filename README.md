@@ -23,6 +23,24 @@ increasingly focused on **building software with AI agents the right way**.
 
 ---
 
+### 🎲 Currently building — [mygamemaster.fr](https://mygamemaster.fr)
+
+My most time-consuming personal project right now: **an AI Game Master for
+tabletop RPGs, made for everyone**. [**MyGameMaster**](https://mygamemaster.fr)
+is the accessible, consumer-ready take on what I learned building
+[`mygamemaster`](https://github.com/tibs245/mygamemaster), my open-source
+self-hosted version.
+
+That first version runs live campaigns on Discord, with one isolated container
+per game. It handles dice, inventories, character sheets, persistent NPC and
+faction agents, image and voice narration, and an LLM judge that keeps the GM
+honest about the rules. A game clock, a spatial graph and actor trajectories
+keep the world consistent from one session to the next. The new site takes
+that experience and makes it something anyone can pick up and play, no
+servers or setup required.
+
+---
+
 ### Spec-Driven Development with AI agents
 
 For the last **6+ months I've been using Claude daily inside production projects**
@@ -38,8 +56,11 @@ Concretely, this is what I've been doing:
   carry a migration through from analysis to working, reviewed code.
 - 🧭 **Front-end best-practice frameworks** — organizational projects that encode
   good practices so a team (and its agents) ship consistently.
-- 🧩 **BMAD + custom modules** — designing project-specific agent modules
-  tailored to each codebase and team.
+- 🧩 **[ScrumIA](https://tibs245.github.io/scrumia/)**, my own AI workflow,
+  [open source](https://github.com/tibs245/scrumia): a Scrum workflow built
+  from replaceable Claude Code plugin modules (specs, tracker, team,
+  implementation, design). It takes a ticket from spec to refined issue to
+  PR, runs sprints in isolated worktrees, and leaves the merge to a human.
 - 📐 **Spec-first, quality-first** — turning specs into the contract that drives
   both humans and agents toward maintainable software.
 
@@ -62,6 +83,9 @@ specializing.
 
 | Project | What it is |
 | --- | --- |
+| **[mygamemaster.fr](https://mygamemaster.fr)** 🎲 | An AI Game Master for tabletop RPGs, for everyone. *My main side project right now.* |
+| **[mygamemaster](https://github.com/tibs245/mygamemaster)** | The open-source, self-hosted AI GM for Discord that started it all (AGPL-3.0). |
+| **[ScrumIA](https://github.com/tibs245/scrumia)** | My AI workflow as replaceable Claude Code modules: Scrum from spec to PR. ([docs](https://tibs245.github.io/scrumia/)) |
 | **[trading-ig-rust](https://github.com/tibs245/trading-ig-rust)** | A Rust SDK for the IG trading platform — typed client for a real financial API. |
 | **[oria-starter](https://github.com/tibs245/oria-starter)** | *Oria* — an opinionated, organized Rust API architecture to bootstrap backends. |
 | **[passtauri](https://github.com/tibs245/passtauri)** | A desktop GUI for the `pass` password manager, built with Tauri + TypeScript. |
