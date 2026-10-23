@@ -1,5 +1,7 @@
 <h1 align="center">Thibault Barske</h1>
 
+<p align="center"><a href="https://tibs245.github.io/tibs245/"><strong>Portfolio · Accompagnement entrepreneurial, numérique &amp; IA</strong></a></p>
+
 <p align="center">
   <em>Freelance Full-Stack Engineer — Rust&nbsp;· TypeScript/React&nbsp;· Kotlin Multiplatform</em>
 </p>

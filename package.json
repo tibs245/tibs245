@@ -1,0 +1,17 @@
+{
+  "name": "thibault-barske-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "check": "node --check docs/app.js && html-validate docs/index.html && node scripts/check-site.mjs",
+    "audit": "node scripts/audit.mjs",
+    "format": "prettier --write docs/index.html docs/style.css docs/app.js scripts/*.mjs .github/workflows/*.yml"
+  },
+  "devDependencies": {
+    "html-validate": "11.17.0",
+    "lighthouse": "13.5.0",
+    "prettier": "3.9.10"
+  },
+  "engines": { "node": ">=22.19.0" }
+}

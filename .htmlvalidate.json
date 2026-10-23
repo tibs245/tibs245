@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+  "rules": {
+    "void-style": [
+      "error",
+      {
+        "style": "selfclose"
+      }
+    ],
+    "no-inline-style": "off",
+    "svg-focusable": "off",
+    "doctype-style": "off"
+  }
+}
