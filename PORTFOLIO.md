@@ -22,7 +22,7 @@ npm run audit
 
 `check` validates HTML, JavaScript syntax, local asset paths, anchors, unique IDs, the primary heading, French language, canonical URL, sitemap, structured data and a 400 kB total asset budget (including the social card and font licenses).
 
-`audit` requires Chrome/Chromium. Set `CHROME_PATH` if it is not automatically detected. It starts an isolated local server, runs Lighthouse for mobile and desktop, writes HTML/JSON reports in `reports/`, then shuts the server down. It fails below 95 in performance or below 100 in accessibility, best practices or SEO. npm packages are development tools only; deploy only `docs/`.
+`audit` requires Chrome/Chromium. Set `CHROME_PATH` if it is not automatically detected. It starts an isolated local server, runs Lighthouse three times for mobile and desktop, writes HTML/JSON reports in `reports/`, then shuts the server down. It fails below 95 in median performance (three runs per device preset) or below 100 in accessibility, best practices or SEO on any run. All individual results are kept; a runtime error is always a failure. The median reduces shared-runner noise without lowering the performance threshold. npm packages are development tools only; deploy only `docs/`.
 
 ## Audit — 24 October 2026
 
