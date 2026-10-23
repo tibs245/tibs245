@@ -47,8 +47,7 @@ better each time.
 My most time-consuming personal project right now: **an AI Game Master for
 tabletop RPGs, made for everyone**. [**MyGameMaster**](https://mygamemaster.fr)
 is the accessible, consumer-ready take on what I learned building
-[`mygamemaster`](https://github.com/tibs245/mygamemaster), my open-source
-self-hosted version.
+`mygamemaster`, my first, self-hosted version *(private repo)*.
 
 That first version runs live campaigns on Discord, with one isolated container
 per game. It handles dice, inventories, character sheets, persistent NPC and
@@ -103,7 +102,7 @@ specializing.
 | Project | What it is |
 | --- | --- |
 | **[mygamemaster.fr](https://mygamemaster.fr)** 🎲 | An AI Game Master for tabletop RPGs, for everyone. *My main side project right now.* |
-| **[mygamemaster](https://github.com/tibs245/mygamemaster)** | The open-source, self-hosted AI GM for Discord that started it all (AGPL-3.0). |
+| **mygamemaster** 🔒 | The self-hosted AI GM for Discord that started it all. *(private repo)* |
 | **[ScrumIA](https://github.com/tibs245/scrumia)** | My AI workflow as replaceable Claude Code modules: Scrum from spec to PR. ([docs](https://tibs245.github.io/scrumia/)) |
 | **[trading-ig-rust](https://github.com/tibs245/trading-ig-rust)** | A Rust SDK for the IG trading platform — typed client for a real financial API. |
 | **[oria-starter](https://github.com/tibs245/oria-starter)** | *Oria* — an opinionated, organized Rust API architecture to bootstrap backends. |
