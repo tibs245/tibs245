@@ -39,7 +39,8 @@ is built with love ❤️
 My most time-consuming personal project right now: **an AI Game Master for
 tabletop RPGs, made for everyone**. [**MyGameMaster**](https://mygamemaster.fr)
 is the accessible, consumer-ready take on what I learned building
-`mygamemaster`, my first, self-hosted version *(private repo)*.
+[mygamemaster](https://github.com/tibs245/mygamemaster), my first, self-hosted
+proof of concept.
 
 That first version runs live campaigns on Discord, with one isolated container
 per game. It handles dice, inventories, character sheets, persistent NPC and
@@ -94,14 +95,14 @@ specializing.
 | Project | What it is |
 | --- | --- |
 | **[mygamemaster.fr](https://mygamemaster.fr)** 🎲 | An AI Game Master for tabletop RPGs, for everyone. *My main side project right now.* |
-| **mygamemaster** 🔒 | The self-hosted AI GM for Discord that started it all. *(private repo)* |
+| **[MyGameMaster](https://github.com/tibs245/mygamemaster)** | A self-hosted AI GM for Discord — the proof of concept that led to mygamemaster.fr. |
 | **[ScrumIA](https://github.com/tibs245/scrumia)** | My AI workflow as replaceable Claude Code modules: Scrum from spec to PR. ([docs](https://tibs245.github.io/scrumia/)) |
 | **[trading-ig-rust](https://github.com/tibs245/trading-ig-rust)** | A Rust SDK for the IG trading platform — typed client for a real financial API. |
 | **[oria-starter](https://github.com/tibs245/oria-starter)** | *Oria* — an opinionated, organized Rust API architecture to bootstrap backends. |
 | **[passtauri](https://github.com/tibs245/passtauri)** | A desktop GUI for the `pass` password manager, built with Tauri + TypeScript. |
 | **[invoice-cli](https://github.com/tibs245/invoice-cli)** | A Rust CLI to generate and manage invoices — a small, complete, useful tool. |
 | **[server-state-manager-adapter](https://github.com/tibs245/server-state-manager-adapter)** | A TypeScript module for front-end server-state management. |
-| **my-fidelity-2025** 🔒 | A Kotlin Multiplatform loyalty app for local merchants. *(private side project)* |
+| **my-fidelity** 🔒 | A Kotlin Multiplatform loyalty app for local merchants. *(private side project)* |
 | **[translation-analyzer-napi](https://github.com/tibs245/translation-analyzer-napi)** | Rust core exposed to Node via NAPI — a monorepo translation tooling POC. |
 | **[template-typst-CV](https://github.com/tibs245/template-typst-CV)** | My résumé as a reusable Typst template — fork it for your own. |
 
